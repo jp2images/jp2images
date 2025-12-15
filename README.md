@@ -1,5 +1,6 @@
 # Stats
-![Jeff's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jp2images&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=percent)
+# ![Jeff's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jp2images&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=percent)
+![Jeff's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jp2images&show_icons=true&theme=tokyonight&rank_icon=percent)
 
 
 ## GitHub Grade
