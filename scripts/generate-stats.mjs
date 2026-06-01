@@ -46,12 +46,13 @@ query ($login: String!) {
     followers { totalCount }
     following { totalCount }
     createdAt
-    repositories(ownerAffiliations: OWNER, privacy: PUBLIC) { totalCount }
+    repositories(ownerAffiliations: OWNER) { totalCount }
     contributionsCollection {
       totalCommitContributions
       totalPullRequestContributions
       totalIssueContributions
       totalPullRequestReviewContributions
+      restrictedContributionsCount
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -66,7 +67,7 @@ query ($login: String!) {
 const reposQuery = `
 query ($login: String!, $cursor: String) {
   user(login: $login) {
-    repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, privacy: PUBLIC,
+    repositories(first: 100, after: $cursor, ownerAffiliations: OWNER,
                  orderBy: {field: STARGAZERS, direction: DESC}, isFork: false) {
       pageInfo { hasNextPage endCursor }
       nodes {
@@ -145,6 +146,7 @@ const stats = {
   prs: u.pullRequests.totalCount,
   issues: u.issues.totalCount,
   reviews: cc.totalPullRequestReviewContributions,
+  privateContrib: cc.restrictedContributionsCount,
   contribYear: cc.contributionCalendar.totalContributions,
   streak,
   longest,
@@ -215,12 +217,12 @@ const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none"
   <!-- Left: core stats -->
   <g transform="translate(30, 108)">
     <text x="0" y="0" class="hdr">CORE STATS</text>
-    ${statRow(0, 30, "Total stars earned", fmt(stats.stars), T.good)}
-    ${statRow(0, 56, "Commits (this year)", fmt(stats.commits), T.good)}
-    ${statRow(0, 82, "Pull requests", fmt(stats.prs), T.good)}
-    ${statRow(0, 108, "Issues", fmt(stats.issues), T.good)}
-    ${statRow(0, 134, "Code reviews (this year)", fmt(stats.reviews), T.good)}
-    ${statRow(0, 160, "Contributions (this year)", fmt(stats.contribYear), T.good)}
+    ${statRow(0, 30, "Contributions (this year)", fmt(stats.contribYear), T.good)}
+    ${statRow(0, 56, "└ private (this year)", fmt(stats.privateContrib), T.accent)}
+    ${statRow(0, 82, "Commits (this year)", fmt(stats.commits), T.good)}
+    ${statRow(0, 108, "Pull requests (all time)", fmt(stats.prs), T.good)}
+    ${statRow(0, 134, "Issues (all time)", fmt(stats.issues), T.good)}
+    ${statRow(0, 160, "Total stars earned", fmt(stats.stars), T.good)}
   </g>
 
   <!-- Divider -->

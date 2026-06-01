@@ -14,30 +14,30 @@
 
   <!-- Header -->
   <text x="30" y="42" class="title">Jeff Patterson's GitHub</text>
-  <text x="30" y="62" class="sub">@jp2images  ·  Ankeny IA, USA  ·  11.6 yrs on GitHub  ·  5 followers  ·  59 repos</text>
+  <text x="30" y="62" class="sub">@jp2images  ·  Ankeny IA, USA  ·  11.6 yrs on GitHub  ·  5 followers  ·  79 repos</text>
   <line x1="30" y1="78" x2="830" y2="78" stroke="#2a2c3f"/>
 
   <!-- Left: core stats -->
   <g transform="translate(30, 108)">
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
-    <text x="0" y="30" class="lbl">Total stars earned</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">2</text>
+    <text x="0" y="30" class="lbl">Contributions (this year)</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">1,036</text>
     
-    <text x="0" y="56" class="lbl">Commits (this year)</text>
-    <text x="215" y="56" class="val" fill="#9ece6a" text-anchor="end">30</text>
+    <text x="0" y="56" class="lbl">└ private (this year)</text>
+    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">996</text>
     
-    <text x="0" y="82" class="lbl">Pull requests</text>
-    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">21</text>
+    <text x="0" y="82" class="lbl">Commits (this year)</text>
+    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">30</text>
     
-    <text x="0" y="108" class="lbl">Issues</text>
-    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">1</text>
+    <text x="0" y="108" class="lbl">Pull requests (all time)</text>
+    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">146</text>
     
-    <text x="0" y="134" class="lbl">Code reviews (this year)</text>
-    <text x="215" y="134" class="val" fill="#9ece6a" text-anchor="end">1</text>
+    <text x="0" y="134" class="lbl">Issues (all time)</text>
+    <text x="215" y="134" class="val" fill="#9ece6a" text-anchor="end">99</text>
     
-    <text x="0" y="160" class="lbl">Contributions (this year)</text>
-    <text x="215" y="160" class="val" fill="#9ece6a" text-anchor="end">1,034</text>
+    <text x="0" y="160" class="lbl">Total stars earned</text>
+    <text x="215" y="160" class="val" fill="#9ece6a" text-anchor="end">5</text>
   </g>
 
   <!-- Divider -->
@@ -61,21 +61,21 @@
     <text x="0" y="0" class="hdr">TOP LANGUAGES</text>
     <g transform="translate(0, 14)">
       <clipPath id="r"><rect width="360" height="10" rx="5"/></clipPath>
-      <g clip-path="url(#r)"><rect x="0" y="0" width="323.84" height="10" fill="#555555"/><rect x="323.8400879155177" y="0" width="14.90" height="10" fill="#012456"/><rect x="338.73567020665195" y="0" width="7.71" height="10" fill="#F05138"/><rect x="346.4500208346925" y="0" width="4.92" height="10" fill="#f34b7d"/><rect x="351.37024740336784" y="0" width="4.79" height="10" fill="#e34c26"/><rect x="356.1625348624566" y="0" width="3.84" height="10" fill="#00ADD8"/></g>
+      <g clip-path="url(#r)"><rect x="0" y="0" width="150.60" height="10" fill="#F05138"/><rect x="150.59911014304836" y="0" width="147.93" height="10" fill="#555555"/><rect x="298.53080600660184" y="0" width="29.43" height="10" fill="#e34c26"/><rect x="327.9603513600578" y="0" width="19.81" height="10" fill="#178600"/><rect x="347.77291799487006" y="0" width="6.80" height="10" fill="#012456"/><rect x="354.5772909907712" y="0" width="5.42" height="10" fill="#336790"/></g>
     </g>
     <g transform="translate(0, 36)">
-    <circle cx="6" cy="6" r="5" fill="#555555"/>
-    <text x="18" y="10" class="lang">C <tspan class="muted">90.0%</tspan></text>
-    <circle cx="181" cy="6" r="5" fill="#012456"/>
-    <text x="193" y="10" class="lang">PowerShell <tspan class="muted">4.1%</tspan></text>
-    <circle cx="6" cy="30" r="5" fill="#F05138"/>
-    <text x="18" y="34" class="lang">Swift <tspan class="muted">2.1%</tspan></text>
-    <circle cx="181" cy="30" r="5" fill="#f34b7d"/>
-    <text x="193" y="34" class="lang">C++ <tspan class="muted">1.4%</tspan></text>
-    <circle cx="6" cy="54" r="5" fill="#e34c26"/>
-    <text x="18" y="58" class="lang">HTML <tspan class="muted">1.3%</tspan></text>
-    <circle cx="181" cy="54" r="5" fill="#00ADD8"/>
-    <text x="193" y="58" class="lang">Go <tspan class="muted">1.1%</tspan></text></g>
+    <circle cx="6" cy="6" r="5" fill="#F05138"/>
+    <text x="18" y="10" class="lang">Swift <tspan class="muted">41.8%</tspan></text>
+    <circle cx="181" cy="6" r="5" fill="#555555"/>
+    <text x="193" y="10" class="lang">C <tspan class="muted">41.1%</tspan></text>
+    <circle cx="6" cy="30" r="5" fill="#e34c26"/>
+    <text x="18" y="34" class="lang">HTML <tspan class="muted">8.2%</tspan></text>
+    <circle cx="181" cy="30" r="5" fill="#178600"/>
+    <text x="193" y="34" class="lang">C# <tspan class="muted">5.5%</tspan></text>
+    <circle cx="6" cy="54" r="5" fill="#012456"/>
+    <text x="18" y="58" class="lang">PowerShell <tspan class="muted">1.9%</tspan></text>
+    <circle cx="181" cy="54" r="5" fill="#336790"/>
+    <text x="193" y="58" class="lang">PLpgSQL <tspan class="muted">1.5%</tspan></text></g>
   </g>
 
   <text x="30" y="284" class="sub">updated 2026-06-01</text>
