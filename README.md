@@ -1,17 +1,7 @@
 ## GitHub Stats
-<table>
-  <tr>
-    <td>
-      <img 
-        src="https://github-readme-stats.vercel.app/api?username=jp2images&show_icons=true&theme=tokyonight&rank_icon=percent"
-        alt="GitHub Stats"
-      />
-    </td>
-    <td>
-      <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=jp2images&show_icons=true&&theme=tokyonight&rank_icon=percent"
-        alt="Top Languages"
-      />
-    </td>
-  </tr>
-</table>
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="Jeff Patterson's GitHub stats" width="860">
+</p>
+
+<sub>This card is a static SVG regenerated nightly by a <a href=".github/workflows/stats.yml">GitHub Action</a> using GitHub's own API — no third-party service, so it always loads.</sub>
