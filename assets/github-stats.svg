@@ -28,10 +28,10 @@
     <text x="215" y="56" class="val" fill="#9ece6a" text-anchor="end">30</text>
     
     <text x="0" y="82" class="lbl">Pull requests</text>
-    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">146</text>
+    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">21</text>
     
     <text x="0" y="108" class="lbl">Issues</text>
-    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">99</text>
+    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">1</text>
     
     <text x="0" y="134" class="lbl">Code reviews (this year)</text>
     <text x="215" y="134" class="val" fill="#9ece6a" text-anchor="end">1</text>
