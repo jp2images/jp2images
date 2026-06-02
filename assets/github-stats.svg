@@ -22,13 +22,13 @@
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
     <text x="0" y="30" class="lbl">Contributions (this year)</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">1,036</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">1,045</text>
     
     <text x="0" y="56" class="lbl">└ private (this year)</text>
-    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">996</text>
+    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">1,004</text>
     
     <text x="0" y="82" class="lbl">Commits (this year)</text>
-    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">30</text>
+    <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">31</text>
     
     <text x="0" y="108" class="lbl">Pull requests (all time)</text>
     <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">21</text>
@@ -78,5 +78,5 @@
     <text x="193" y="58" class="lang">Go <tspan class="muted">1.1%</tspan></text></g>
   </g>
 
-  <text x="30" y="284" class="sub">updated 2026-06-01</text>
+  <text x="30" y="284" class="sub">updated 2026-06-02</text>
 </svg>
