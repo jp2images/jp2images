@@ -22,10 +22,10 @@
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
     <text x="0" y="30" class="lbl">Contributions (this year)</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">1,237</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">1,240</text>
     
     <text x="0" y="56" class="lbl">└ private (this year)</text>
-    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">1,187</text>
+    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">1,190</text>
     
     <text x="0" y="82" class="lbl">Commits (this year)</text>
     <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">38</text>
@@ -47,7 +47,7 @@
   <g transform="translate(470, 108)">
     <text x="0" y="0" class="hdr">ACTIVITY</text>
     <g transform="translate(0, 14)">
-      <text x="0" y="32" class="big">5🔥</text>
+      <text x="0" y="32" class="big">6🔥</text>
       <text x="0" y="50" class="biglbl">current day streak</text>
     </g>
     <g transform="translate(180, 14)">
@@ -78,5 +78,5 @@
     <text x="193" y="58" class="lang">HTML <tspan class="muted">1.3%</tspan></text></g>
   </g>
 
-  <text x="30" y="284" class="sub">updated 2026-06-22</text>
+  <text x="30" y="284" class="sub">updated 2026-06-23</text>
 </svg>
