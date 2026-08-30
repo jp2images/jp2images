@@ -22,10 +22,10 @@
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
     <text x="0" y="30" class="lbl">Contributions (this year)</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">2,688</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">2,692</text>
     
     <text x="0" y="56" class="lbl">└ private (this year)</text>
-    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">2,597</text>
+    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">2,601</text>
     
     <text x="0" y="82" class="lbl">Commits (this year)</text>
     <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">55</text>
@@ -78,5 +78,5 @@
     <text x="193" y="58" class="lang">Batchfile <tspan class="muted">0.8%</tspan></text></g>
   </g>
 
-  <text x="30" y="284" class="sub">updated 2026-08-29</text>
+  <text x="30" y="284" class="sub">updated 2026-08-30</text>
 </svg>
