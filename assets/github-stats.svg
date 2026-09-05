@@ -22,7 +22,7 @@
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
     <text x="0" y="30" class="lbl">Contributions (this year)</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">2,729</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">2,730</text>
     
     <text x="0" y="56" class="lbl">└ private (this year)</text>
     <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">2,636</text>
@@ -31,7 +31,7 @@
     <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">55</text>
     
     <text x="0" y="108" class="lbl">Pull requests (all time)</text>
-    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">17</text>
+    <text x="215" y="108" class="val" fill="#9ece6a" text-anchor="end">18</text>
     
     <text x="0" y="134" class="lbl">Issues (all time)</text>
     <text x="215" y="134" class="val" fill="#9ece6a" text-anchor="end">20</text>
@@ -78,5 +78,5 @@
     <text x="193" y="58" class="lang">Batchfile <tspan class="muted">0.8%</tspan></text></g>
   </g>
 
-  <text x="30" y="284" class="sub">updated 2026-09-04</text>
+  <text x="30" y="284" class="sub">updated 2026-09-05</text>
 </svg>
