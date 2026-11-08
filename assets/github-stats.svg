@@ -14,7 +14,7 @@
 
   <!-- Header -->
   <text x="30" y="42" class="title">Jeff Patterson's GitHub</text>
-  <text x="30" y="62" class="sub">@jp2images  ·  Ankeny IA, USA  ·  12.0 yrs on GitHub  ·  6 followers  ·  36 repos</text>
+  <text x="30" y="62" class="sub">@jp2images  ·  Ankeny IA, USA  ·  12.0 yrs on GitHub  ·  5 followers  ·  36 repos</text>
   <line x1="30" y1="78" x2="830" y2="78" stroke="#2a2c3f"/>
 
   <!-- Left: core stats -->
@@ -22,10 +22,10 @@
     <text x="0" y="0" class="hdr">CORE STATS</text>
     
     <text x="0" y="30" class="lbl">Contributions (this year)</text>
-    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">3,424</text>
+    <text x="215" y="30" class="val" fill="#9ece6a" text-anchor="end">3,669</text>
     
     <text x="0" y="56" class="lbl">└ private (this year)</text>
-    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">3,251</text>
+    <text x="215" y="56" class="val" fill="#bf91f3" text-anchor="end">3,496</text>
     
     <text x="0" y="82" class="lbl">Commits (this year)</text>
     <text x="215" y="82" class="val" fill="#9ece6a" text-anchor="end">95</text>
@@ -78,5 +78,5 @@
     <text x="193" y="58" class="lang">C# <tspan class="muted">0.8%</tspan></text></g>
   </g>
 
-  <text x="30" y="284" class="sub">updated 2026-11-07</text>
+  <text x="30" y="284" class="sub">updated 2026-11-08</text>
 </svg>
